@@ -32,12 +32,12 @@ document's relevance given a user query.
 In our project we first calculate inverse document frequency for all the documents and then
 we calculate tf-idf for all the documents. We have defined a utility function to find tf-idf.
 We calculate tf and idf as taught in class which is.
+
 ● **TF: Term Frequency** ​:- which measures how frequently a term occurs in a document.
 Since every document is different in length, it is possible that a term would appear
 much more time in long documents than shorter ones. Thus, we take the log of term
 frequency as a way of normalization:
 TF(t) = 1+log (Number of times term t appears in a document).
-
 
 ● **IDF: Inverse Document Frequency** ​:- which measures how important a term is.
 While computing TF, all terms are considered equally important. However it is known
@@ -45,6 +45,7 @@ that certain terms, such as "is", "of", and "that", may appear a lot of times bu
 little importance. Thus we need to weigh down the frequent terms while scale up the
 rare ones, by computing the following:
 IDF(t) = log(Total number of documents / Number of documents with term t in it).
+
 ● **Cosine Similarity** ​:- Finds the amount of similarity between 2 vectors.
 cos(q,d) = q.d/(|q||d|)
 After finding tf-idf for all the documents preprocessing is done. We then take an input query
