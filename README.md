@@ -8,6 +8,8 @@
 
 ### 3. TULAIB AHMED ABDULLAH - 2018A7PS0272H
 
+[Click here to view screenshots of the application](https://github.com/mirameen/News-Search-Engine/blob/master/design%20doc%20fin.pdf)
+
 We first start preprocessing the collection of documents. The process contains two major
 preprocessing.
 
