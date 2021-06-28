@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0055)file:///C:/Users/tulai/Desktop/documentation/query.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Python: module query</title>
+
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing="0" cellpadding="2" border="0" summary="heading">
+<tbody><tr bgcolor="#7799ee">
+<td valign="bottom">&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>query</strong></big></big> (version 1.19.2)</font></td><td align="right" valign="bottom"><font color="#ffffff" face="helvetica, arial"><a href="file:///C:/Users/tulai/Desktop/documentation/">index</a><br><a href="file:///C:/Users/tulai/Desktop/documentation/c%3A%5Cusers%5Ctulaib%20pc%5Cdownloads%5Cir_final_1%5Cquery.py">c:\users\tulaib pc\downloads\ir_final_1\query.py</a></font></td></tr></tbody></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing="0" cellpadding="2" border="0" summary="section">
+<tbody><tr bgcolor="#aa55cc">
+<td colspan="3" valign="bottom">&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tbody><tr><td width="25%" valign="top"><a href="file:///C:/Users/tulai/Desktop/documentation/numpy.core.defchararray.html">numpy.core.defchararray</a><br>
+<a href="file:///C:/Users/tulai/Desktop/documentation/numpy.ctypeslib.html">numpy.ctypeslib</a><br>
+<a href="file:///C:/Users/tulai/Desktop/documentation/numpy.lib.scimath.html">numpy.lib.scimath</a><br>
+<a href="file:///C:/Users/tulai/Desktop/documentation/numpy.fft.html">numpy.fft</a><br>
+</td><td width="25%" valign="top"><a href="file:///C:/Users/tulai/Desktop/documentation/numpy.linalg.html">numpy.linalg</a><br>
+<a href="file:///C:/Users/tulai/Desktop/documentation/numpy.ma.html">numpy.ma</a><br>
+<a href="file:///C:/Users/tulai/Desktop/documentation/math.html">math</a><br>
+ <a href="file:///C:/Users/tulai/Desktop/documentation/nltk.html">nltk</a><br>
+<a href="file:///C:/Users/tulai/Desktop/documentation/numpy.html">numpy</a><br>
+</td><td width="25%" valign="top"><a href="file:///C:/Users/tulai/Desktop/documentation/pandas.html">pandas</a><br>
+<a href="file:///C:/Users/tulai/Desktop/documentation/numpy.random.html">numpy.random</a><br>
+<a href="file:///C:/Users/tulai/Desktop/documentation/numpy.core.records.html">numpy.core.records</a><br>
+<a href="file:///C:/Users/tulai/Desktop/documentation/string.html">string</a><br>
+</td><td width="25%" valign="top"><a href="file:///C:/Users/tulai/Desktop/documentation/time.html">time</a><br>
+</td></tr></tbody></table></td></tr></tbody></table></p><p>
+<table width="100%" cellspacing="0" cellpadding="2" border="0" summary="section">
+<tbody><tr bgcolor="#eeaa77">
+<td colspan="3" valign="bottom">&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">
+ 
+ 
+ 
+ 
+ <dl><dt><a name="-cos_similarity"><strong>cos_similarity</strong></a>(vector1, vector2)</dt><dd><tt>calculates&nbsp;cosine&nbsp;similarity&nbsp;between&nbsp;query&nbsp;and&nbsp;document</tt></dd></dl>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <dl><dt><a name="-get_cos_similarity"><strong>get_cos_similarity</strong></a>(query_str)</dt><dd><tt>takes&nbsp;query&nbsp;and&nbsp;generates&nbsp;search&nbsp;results</tt></dd></dl>
+ <dl><dt><a name="-get_tf"><strong>get_tf</strong></a>(ntk)</dt><dd><tt>calculates&nbsp;tf&nbsp;for&nbsp;all&nbsp;terms&nbsp;in&nbsp;the&nbsp;collection</tt></dd></dl>
+ 
+ 
+ 
+ 
+ 
+ 
+ <dl><dt><a name="-tf_idf"><strong>tf_idf</strong></a>(tf, idf_a)</dt><dd><tt>calculates&nbsp;tf-idf&nbsp;for&nbsp;all&nbsp;documents</tt></dd></dl>
+ <dl><dt><a name="-tokenize"><strong>tokenize</strong></a>(documents)</dt><dd><tt>tokenize&nbsp;all&nbsp;documents</tt></dd></dl>
+ <dl><dt><a name="-tokenize_normalize"><strong>tokenize_normalize</strong></a>(text)</dt><dd><tt>used&nbsp;to&nbsp;tokenize&nbsp;and&nbsp;normalize&nbsp;a&nbsp;document</tt></dd></dl>
+ 
+</td></tr></tbody></table></p><p>
+<table width="100%" cellspacing="0" cellpadding="2" border="0" summary="section">
+<tbody><tr bgcolor="#55aa55">
+<td colspan="3" valign="bottom">&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>ALLOW_THREADS</strong> = 1<br>
+<strong>BUFSIZE</strong> = 8192<br>
+<strong>CLIP</strong> = 0<br>
+<strong>ERR_CALL</strong> = 3<br>
+<strong>ERR_DEFAULT</strong> = 521<br>
+<strong>ERR_IGNORE</strong> = 0<br>
+<strong>ERR_LOG</strong> = 5<br>
+<strong>ERR_PRINT</strong> = 4<br>
+<strong>ERR_RAISE</strong> = 2<br>
+<strong>ERR_WARN</strong> = 1<br>
+<strong>FLOATING_POINT_SUPPORT</strong> = 1<br>
+<strong>FPE_DIVIDEBYZERO</strong> = 1<br>
+<strong>FPE_INVALID</strong> = 8<br>
+<strong>FPE_OVERFLOW</strong> = 2<br>
+<strong>FPE_UNDERFLOW</strong> = 4<br>
+<strong>False_</strong> = False<br>
+<strong>Inf</strong> = inf<br>
+<strong>Infinity</strong> = inf<br>
+<strong>MAXDIMS</strong> = 32<br>
+<strong>MAY_SHARE_BOUNDS</strong> = 0<br>
+<strong>MAY_SHARE_EXACT</strong> = -1<br>
+<strong>NAN</strong> = nan<br>
+<strong>NINF</strong> = -inf<br>
+<strong>NZERO</strong> = -0.0<br>
+<strong>NaN</strong> = nan<br>
+<strong>PINF</strong> = inf<br>
+<strong>PZERO</strong> = 0.0<br>
+<strong>RAISE</strong> = 2<br>
+<strong>SHIFT_DIVIDEBYZERO</strong> = 0<br>
+<strong>SHIFT_INVALID</strong> = 9<br>
+<strong>SHIFT_OVERFLOW</strong> = 3<br>
+<strong>SHIFT_UNDERFLOW</strong> = 6<br>
+<strong>ScalarType</strong> = (&lt;class 'int'&gt;, &lt;class 'float'&gt;, &lt;class 'complex'&gt;, &lt;class 'int'&gt;, &lt;class 'bool'&gt;, &lt;class 'bytes'&gt;, &lt;class 'str'&gt;, &lt;class 'memoryview'&gt;, &lt;class 'numpy.longdouble'&gt;, &lt;class 'numpy.uint8'&gt;, &lt;class 'numpy.uint32'&gt;, &lt;class 'numpy.int16'&gt;, &lt;class 'numpy.uint64'&gt;, &lt;class 'numpy.intc'&gt;, &lt;class 'numpy.int8'&gt;, &lt;class 'numpy.object_'&gt;, &lt;class 'numpy.float64'&gt;, &lt;class 'numpy.bool_'&gt;, &lt;class 'numpy.float32'&gt;, &lt;class 'numpy.datetime64'&gt;, ...)<br>
+<strong>True_</strong> = True<br>
+<strong>UFUNC_BUFSIZE_DEFAULT</strong> = 8192<br>
+<strong>UFUNC_PYVALS_NAME</strong> = 'UFUNC_PYVALS'<br>
+<strong>WRAP</strong> = 1<br>
+<strong>absolute</strong> = &lt;ufunc 'absolute'&gt;<br>
+<strong>add</strong> = &lt;ufunc 'add'&gt;<br>
+<strong>arccos</strong> = &lt;ufunc 'arccos'&gt;<br>
+<strong>arccosh</strong> = &lt;ufunc 'arccosh'&gt;<br>
+<strong>arcsin</strong> = &lt;ufunc 'arcsin'&gt;<br>
+<strong>arcsinh</strong> = &lt;ufunc 'arcsinh'&gt;<br>
+<strong>arctan</strong> = &lt;ufunc 'arctan'&gt;<br>
+<strong>arctan2</strong> = &lt;ufunc 'arctan2'&gt;<br>
+<strong>arctanh</strong> = &lt;ufunc 'arctanh'&gt;<br>
+<strong>bitwise_and</strong> = &lt;ufunc 'bitwise_and'&gt;<br>
+<strong>bitwise_not</strong> = &lt;ufunc 'invert'&gt;<br>
+<strong>bitwise_or</strong> = &lt;ufunc 'bitwise_or'&gt;<br>
+<strong>bitwise_xor</strong> = &lt;ufunc 'bitwise_xor'&gt;<br>
+<strong>c_</strong> = &lt;numpy.lib.index_tricks.CClass object&gt;<br>
+<strong>cast</strong> = {&lt;class 'numpy.longdouble'&gt;: &lt;function &lt;lambda&gt; ...oid'&gt;: &lt;function &lt;lambda&gt; at 0x00000247A2779EE0&gt;}<br>
+<strong>cbrt</strong> = &lt;ufunc 'cbrt'&gt;<br>
+<strong>ceil</strong> = &lt;ufunc 'ceil'&gt;<br>
+<strong>conj</strong> = &lt;ufunc 'conjugate'&gt;<br>
+<strong>conjugate</strong> = &lt;ufunc 'conjugate'&gt;<br>
+<strong>copysign</strong> = &lt;ufunc 'copysign'&gt;<br>
+<strong>cos</strong> = &lt;ufunc 'cos'&gt;<br>
+<strong>cosh</strong> = &lt;ufunc 'cosh'&gt;<br>
+<strong>deg2rad</strong> = &lt;ufunc 'deg2rad'&gt;<br>
+<strong>degrees</strong> = &lt;ufunc 'degrees'&gt;<br>
+<strong>df</strong> =                                               he...uor company United Sp...
+
+[2000 rows x 2 columns]<br>
+<strong>divide</strong> = &lt;ufunc 'true_divide'&gt;<br>
+<strong>divmod</strong> = &lt;ufunc 'divmod'&gt;<br>
+<strong>e</strong> = 2.718281828459045<br>
+<strong>equal</strong> = &lt;ufunc 'equal'&gt;<br>
+<strong>euler_gamma</strong> = 0.5772156649015329<br>
+<strong>exp</strong> = &lt;ufunc 'exp'&gt;<br>
+<strong>exp2</strong> = &lt;ufunc 'exp2'&gt;<br>
+<strong>expm1</strong> = &lt;ufunc 'expm1'&gt;<br>
+<strong>fabs</strong> = &lt;ufunc 'fabs'&gt;<br>
+<strong>float_power</strong> = &lt;ufunc 'float_power'&gt;<br>
+<strong>floor</strong> = &lt;ufunc 'floor'&gt;<br>
+<strong>floor_divide</strong> = &lt;ufunc 'floor_divide'&gt;<br>
+<strong>fmax</strong> = &lt;ufunc 'fmax'&gt;<br>
+<strong>fmin</strong> = &lt;ufunc 'fmin'&gt;<br>
+<strong>fmod</strong> = &lt;ufunc 'fmod'&gt;<br>
+<strong>frexp</strong> = &lt;ufunc 'frexp'&gt;<br>
+<strong>gcd</strong> = &lt;ufunc 'gcd'&gt;<br>
+<strong>greater</strong> = &lt;ufunc 'greater'&gt;<br>
+<strong>greater_equal</strong> = &lt;ufunc 'greater_equal'&gt;<br>
+<strong>heaviside</strong> = &lt;ufunc 'heaviside'&gt;<br>
+<strong>hypot</strong> = &lt;ufunc 'hypot'&gt;<br>
+<strong>idf_c</strong> = array([1.15840974, 8.60090246, 8.60090246, ..., 8.60090246, 8.60090246,
+       8.60090246])<br>
+<strong>index_exp</strong> = &lt;numpy.lib.index_tricks.IndexExpression object&gt;<br>
+<strong>inf</strong> = inf<br>
+<strong>infty</strong> = inf<br>
+<strong>invert</strong> = &lt;ufunc 'invert'&gt;<br>
+<strong>isfinite</strong> = &lt;ufunc 'isfinite'&gt;<br>
+<strong>isinf</strong> = &lt;ufunc 'isinf'&gt;<br>
+<strong>isnan</strong> = &lt;ufunc 'isnan'&gt;<br>
+<strong>isnat</strong> = &lt;ufunc 'isnat'&gt;<br>
+<strong>lcm</strong> = &lt;ufunc 'lcm'&gt;<br>
+<strong>ldexp</strong> = &lt;ufunc 'ldexp'&gt;<br>
+<strong>left_shift</strong> = &lt;ufunc 'left_shift'&gt;<br>
+<strong>less</strong> = &lt;ufunc 'less'&gt;<br>
+<strong>less_equal</strong> = &lt;ufunc 'less_equal'&gt;<br>
+<strong>little_endian</strong> = True<br>
+<strong>log</strong> = &lt;ufunc 'log'&gt;<br>
+<strong>log10</strong> = &lt;ufunc 'log10'&gt;<br>
+<strong>log1p</strong> = &lt;ufunc 'log1p'&gt;<br>
+<strong>log2</strong> = &lt;ufunc 'log2'&gt;<br>
+<strong>logaddexp</strong> = &lt;ufunc 'logaddexp'&gt;<br>
+<strong>logaddexp2</strong> = &lt;ufunc 'logaddexp2'&gt;<br>
+<strong>logical_and</strong> = &lt;ufunc 'logical_and'&gt;<br>
+<strong>logical_not</strong> = &lt;ufunc 'logical_not'&gt;<br>
+<strong>logical_or</strong> = &lt;ufunc 'logical_or'&gt;<br>
+<strong>logical_xor</strong> = &lt;ufunc 'logical_xor'&gt;<br>
+<strong>matmul</strong> = &lt;ufunc 'matmul'&gt;<br>
+<strong>maximum</strong> = &lt;ufunc 'maximum'&gt;<br>
+<strong>mgrid</strong> = &lt;numpy.lib.index_tricks.MGridClass object&gt;<br>
+<strong>minimum</strong> = &lt;ufunc 'minimum'&gt;<br>
+<strong>mod</strong> = &lt;ufunc 'remainder'&gt;<br>
+<strong>modf</strong> = &lt;ufunc 'modf'&gt;<br>
+<strong>multiply</strong> = &lt;ufunc 'multiply'&gt;<br>
+<strong>nan</strong> = nan<br>
+<strong>nbytes</strong> = {&lt;class 'numpy.bool_'&gt;: 1, &lt;class 'numpy.int8'&gt;:....datetime64'&gt;: 8, &lt;class 'numpy.timedelta64'&gt;: 8}<br>
+<strong>negative</strong> = &lt;ufunc 'negative'&gt;<br>
+<strong>newaxis</strong> = None<br>
+<strong>news_hl</strong> = ['upGrad learner switches to career in ML &amp; Al with 90% salary hike', 'Delhi techie wins free food from Swiggy for one year on CRED', "New Zealand end Rohit Sharma-led India's 12-match winning streak", 'Aegon life iTerm insurance plan helps customers save tax', 'Have known Hirani for yrs, what if MeToo claims are not true: Sonam', 'Rahat Fateh Ali Khan denies getting notice for smuggling currency', 'India get all out for 92, their lowest ODI total in New Zealand', 'Govt directs Alok Verma to join work 1 day before his retirement', "Called PM Modi 'sir' 10 times to satisfy his ego: Andhra CM", 'Cong wins Ramgarh bypoll in Rajasthan, takes total to 100 seats', 'UP cousins fed human excreta for friendship with boys', "81-yr-old woman conducts physical training in J'khand schools", "Ram, Krishna didn't smoke, why should we: Ramdev to sadhus at Kumbh", 'Pharma exec gave doctor a lap dance to sell medicine in US: Witness', " I only cried at my 'bidaai' as I felt peer pressure: Isha Ambani", 'Louis Vuitton owner to stockpile 4 months of wine, spirits in UK', 'Karan Johar, Tabu turn showstoppers on opening night of LFW', 'Those on bail will go to jail: PM Modi takes jibe at Rahul', "How long can I tolerate Congress leaders' potshots: K'taka CM", 'Odisha CM Patnaik controls mining mafia: Union Minister', ...]<br>
+<strong>news_sum</strong> = ["Saurav Kant, an alumnus of upGrad and IIIT-B's P...nline Power Learning has powered 3 lakh+ careers.", "Kunal Shah's credit card bill payment platform, ...e Ixigo, BookMyShow, UberEats, Cult.Fit and more.", 'New Zealand defeated India by 8 wickets in the f...heir seventh lowest total in ODI cricket history.', 'With Aegon Life iTerm Insurance plan, customers ...ider with a life cover up to the age of 80 years.', "Speaking about the sexual harassment allegations...en accused by an assistant who worked in 'Sanju'.", 'Pakistani singer Rahat Fateh Ali Khan has denied...tatement further called the allegation "bizarre".', 'India recorded their lowest ODI total in New Zea...previous lowest ODI total in New Zealand was 108.', 'Weeks after ex-CBI Director Alok Verma told the ...as transferred to after his removal as CBI chief.', 'Andhra Pradesh CM N Chandrababu Naidu has said, ... that he will do justice to the state," he added.', 'Congress candidate Shafia Zubair won the Ramgarh...th of sitting MLA and BSP candidate Laxman Singh.', "Two minor cousins in Uttar Pradesh's Gorakhpur w...Nepal, where they had fled to escape the torture.", 'Isha Ghosh, an 81-year-old member of Bharat Scou...do something for society till one<font color="#c040c0">\'</font>s last breath."', "Urging saints and seers at the Kumbh Mela to qui...the chillums for display at a museum he'll build.", 'Former stripper and regional sales director of a...around." Lee has been accused of bribing doctors.', 'Reliance Industries<font color="#c040c0">\'</font> Chairman Mukesh Ambani<font color="#c040c0">\'</font>s da...nal affair for everyone in my family," said Isha.', 'Louis Vuitton owner LVMH, which makes high-end b... The UK is scheduled to leave the EU on March 29.', 'Filmmaker Karan Johar and actress Tabu turned sh...gan on January 29, will continue till February 3.', "In a jibe at Congress President Rahul Gandhi, PM...corruption because he's from a common household. ", 'Days after he threatened to step down from his p...iah be made CM again, said, "Power is ephemeral."', 'Union Minister Dharmendra Pradhan on Wednesday c...for an explanation from this corrupt government."', ...]<br>
+<strong>nextafter</strong> = &lt;ufunc 'nextafter'&gt;<br>
+<strong>not_equal</strong> = &lt;ufunc 'not_equal'&gt;<br>
+<strong>nt</strong> = [['saurav', 'kant', 'alumnus', 'upgrad', 'iiit-bs', 'pg', 'program', 'machine', 'learning', 'artificial', 'intelligence', 'sr', 'systems', 'engineer', 'infosys', 'almost', '5', 'years', 'work', 'experience', ...], ['kunal', 'shahs', 'credit', 'card', 'bill', 'payment', 'platform', 'cred', 'gave', 'users', 'chance', 'win', 'free', 'food', 'swiggy', 'one', 'year', 'pranav', 'kaushik', 'delhi', ...], ['new', 'zealand', 'defeated', 'india', '8', 'wickets', 'fourth', 'odi', 'hamilton', 'thursday', 'win', 'first', 'match', 'five-match', 'odi', 'series', 'india', 'lost', 'international', 'match', ...], ['aegon', 'life', 'iterm', 'insurance', 'plan', 'customers', 'enjoy', 'tax', 'benefits', 'premiums', 'paid', 'save', 'â<font color="#c040c0">\x82</font>¹46,800^', 'taxes', 'plan', 'provides', 'life', 'cover', 'age', '100', ...], ['speaking', 'sexual', 'harassment', 'allegations', 'rajkumar', 'hirani', 'sonam', 'kapoor', 'said', '``', 'ive', 'known', 'hirani', 'many', 'years', '...', 'true', 'metoo', 'movement', 'get', ...], ['pakistani', 'singer', 'rahat', 'fateh', 'ali', 'khan', 'denied', 'receiving', 'notice', 'enforcement', 'directorate', 'allegedly', 'smuggling', 'foreign', 'currency', 'india', '``', 'would', 'better', 'authorities', ...], ['india', 'recorded', 'lowest', 'odi', 'total', 'new', 'zealand', 'getting', '92', 'runs', '30.5', 'overs', 'fourth', 'odi', 'hamilton', 'thursday', 'seven', 'indias', 'batsmen', 'dismissed', ...], ['weeks', 'ex-cbi', 'director', 'alok', 'verma', 'told', 'department', 'personnel', 'training', 'consider', 'retired', 'home', 'ministry', 'asked', 'join', 'work', 'last', 'day', 'fixed', 'tenure', ...], ['andhra', 'pradesh', 'cm', 'n', 'chandrababu', 'naidu', 'said', '``', 'met', 'us', 'president', 'bill', 'clinton', 'addressed', 'mr', 'clinton', 'sir', 'pm', 'narendra', 'modi', ...], ['congress', 'candidate', 'shafia', 'zubair', 'ramgarh', 'assembly', 'seat', 'rajasthan', 'defeating', 'bjps', 'sukhwant', 'singh', 'margin', '12,228', 'votes', 'bypoll', 'victory', 'congress', 'taken', 'total', ...], ['two', 'minor', 'cousins', 'uttar', 'pradeshs', 'gorakhpur', 'allegedly', 'repeatedly', 'burnt', 'tongs', 'forced', 'eat', 'human', 'excreta', 'family', 'friends', 'two', 'boys', 'school', 'cousins', ...], ['isha', 'ghosh', '81-year-old', 'member', 'bharat', 'scouts', 'guides', 'bsg', 'imparting', 'physical', 'mental', 'training', 'schoolchildren', 'jharkhand', 'several', 'decades', 'chaibasa-based', 'ghosh', 'reportedly', 'walks', ...], ['urging', 'saints', 'seers', 'kumbh', 'mela', 'quit', 'smoking', 'yoga', 'guru', 'ramdev', 'said', '``', 'follow', 'ram', 'krishna', 'never', 'smoked', 'life', "''", 'making', ...], ['former', 'stripper', 'regional', 'sales', 'director', 'pharmaceutical', 'company', 'sunrise', 'lee', 'gave', 'doctor', 'lap', 'dance', 'nightclub', 'persuade', 'prescribe', 'addictive', 'fentanyl', 'spray', '2012', ...], ['reliance', 'industries', 'chairman', 'mukesh', 'ambanis', 'daughter', 'isha', 'ambani', 'got', 'married', 'last', 'month', 'said', 'cried', 'bidaai', 'felt', 'peer', 'pressure', 'everyone', 'crying', ...], ['louis', 'vuitton', 'owner', 'lvmh', 'makes', 'high-end', 'beverages', 'like', 'moã', '«', 'chandon', 'champagne', 'hennessy', 'cognac', 'said', 'stockpiling', 'four', 'months', 'worth', 'wine', ...], ['filmmaker', 'karan', 'johar', 'actress', 'tabu', 'turned', 'showstoppers', 'gaurav', 'gupta', 'opening', 'night', 'lakmã©', 'fashion', 'week', 'summer/', 'resort', '2019.', 'johar', 'wore', 'red', ...], ['jibe', 'congress', 'president', 'rahul', 'gandhi', 'pm', 'narendra', 'modi', 'wednesday', 'said', '``', 'bail', 'go', 'jail', "''", 'pm', 'modi', 'added', '``', 'bail', ...], ['days', 'threatened', 'step', 'post', 'congress', 'mlas', 'continue', '``', 'crossing', 'line', "''", 'karnataka', 'chief', 'minister', 'hd', 'kumaraswamy', 'accused', 'taking', 'potshots', 'asked', ...], ['union', 'minister', 'dharmendra', 'pradhan', 'wednesday', 'claimed', 'illegal', 'mining', 'mafia', 'odisha', 'operates', 'control', 'cm', 'naveen', 'patnaik', 'state', 'congress', 'chief', 'niranjan', 'patnaik', ...], ...]<br>
+<strong>ogrid</strong> = &lt;numpy.lib.index_tricks.OGridClass object&gt;<br>
+<strong>pi</strong> = 3.141592653589793<br>
+<strong>positive</strong> = &lt;ufunc 'positive'&gt;<br>
+<strong>power</strong> = &lt;ufunc 'power'&gt;<br>
+<strong>r_</strong> = &lt;numpy.lib.index_tricks.RClass object&gt;<br>
+<strong>rad2deg</strong> = &lt;ufunc 'rad2deg'&gt;<br>
+<strong>radians</strong> = &lt;ufunc 'radians'&gt;<br>
+<strong>reciprocal</strong> = &lt;ufunc 'reciprocal'&gt;<br>
+<strong>remainder</strong> = &lt;ufunc 'remainder'&gt;<br>
+<strong>right_shift</strong> = &lt;ufunc 'right_shift'&gt;<br>
+<strong>rint</strong> = &lt;ufunc 'rint'&gt;<br>
+<strong>s_</strong> = &lt;numpy.lib.index_tricks.IndexExpression object&gt;<br>
+<strong>sctypeDict</strong> = {'?': &lt;class 'numpy.bool_'&gt;, 0: &lt;class 'numpy.bool_'&gt;, 'byte': &lt;class 'numpy.int8'&gt;, 'b': &lt;class 'numpy.int8'&gt;, 1: &lt;class 'numpy.int8'&gt;, 'ubyte': &lt;class 'numpy.uint8'&gt;, 'B': &lt;class 'numpy.uint8'&gt;, 2: &lt;class 'numpy.uint8'&gt;, 'short': &lt;class 'numpy.int16'&gt;, 'h': &lt;class 'numpy.int16'&gt;, ...}<br>
+<strong>sctypeNA</strong> = {'Bool': &lt;class 'numpy.bool_'&gt;, &lt;class 'numpy.bo...'&gt;, &lt;class 'numpy.uint8'&gt;: 'UInt8', 'B': 'UInt8'}<br>
+<strong>sctypes</strong> = {'complex': [&lt;class 'numpy.complex64'&gt;, &lt;class 'numpy.complex128'&gt;], 'float': [&lt;class 'numpy.float16'&gt;, &lt;class 'numpy.float32'&gt;, &lt;class 'numpy.float64'&gt;], 'int': [&lt;class 'numpy.int8'&gt;, &lt;class 'numpy.int16'&gt;, &lt;class 'numpy.int32'&gt;, &lt;class 'numpy.int64'&gt;], 'others': [&lt;class 'bool'&gt;, &lt;class 'object'&gt;, &lt;class 'bytes'&gt;, &lt;class 'str'&gt;, &lt;class 'numpy.void'&gt;], 'uint': [&lt;class 'numpy.uint8'&gt;, &lt;class 'numpy.uint16'&gt;, &lt;class 'numpy.uint32'&gt;, &lt;class 'numpy.uint64'&gt;]}<br>
+<strong>sign</strong> = &lt;ufunc 'sign'&gt;<br>
+<strong>signbit</strong> = &lt;ufunc 'signbit'&gt;<br>
+<strong>sin</strong> = &lt;ufunc 'sin'&gt;<br>
+<strong>sinh</strong> = &lt;ufunc 'sinh'&gt;<br>
+<strong>spacing</strong> = &lt;ufunc 'spacing'&gt;<br>
+<strong>sqrt</strong> = &lt;ufunc 'sqrt'&gt;<br>
+<strong>square</strong> = &lt;ufunc 'square'&gt;<br>
+<strong>start_time</strong> = 1603540978.3488917<br>
+<strong>stop_words</strong> = array(['i', 'me', 'my', 'myself', 'we', 'our', '...on't", 'wouldn', "wouldn't"],
+      dtype='&lt;U10')<br>
+<strong>stopwords</strong> = &lt;WordListCorpusReader in 'C:\\Users\\tulaib pc\\AppData\\Roaming\\nltk_data\\corpora\\stopwords'&gt;<br>
+<strong>subtract</strong> = &lt;ufunc 'subtract'&gt;<br>
+<strong>tan</strong> = &lt;ufunc 'tan'&gt;<br>
+<strong>tanh</strong> = &lt;ufunc 'tanh'&gt;<br>
+<strong>tf_c</strong> = array([[0., 0., 0., ..., 0., 0., 0.],
+       [0...., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.]])<br>
+<strong>tf_idf_c</strong> = array([[0.        , 0.        , 0.        , ...,....., 0.        , 0.        ,
+        0.        ]])<br>
+<strong>tracemalloc_domain</strong> = 389047<br>
+<strong>true_divide</strong> = &lt;ufunc 'true_divide'&gt;<br>
+<strong>trunc</strong> = &lt;ufunc 'trunc'&gt;<br>
+<strong>typeDict</strong> = {'?': &lt;class 'numpy.bool_'&gt;, 0: &lt;class 'numpy.bool_'&gt;, 'byte': &lt;class 'numpy.int8'&gt;, 'b': &lt;class 'numpy.int8'&gt;, 1: &lt;class 'numpy.int8'&gt;, 'ubyte': &lt;class 'numpy.uint8'&gt;, 'B': &lt;class 'numpy.uint8'&gt;, 2: &lt;class 'numpy.uint8'&gt;, 'short': &lt;class 'numpy.int16'&gt;, 'h': &lt;class 'numpy.int16'&gt;, ...}<br>
+<strong>typeNA</strong> = {'Bool': &lt;class 'numpy.bool_'&gt;, &lt;class 'numpy.bo...'&gt;, &lt;class 'numpy.uint8'&gt;: 'UInt8', 'B': 'UInt8'}<br>
+<strong>typecodes</strong> = {'All': '?bhilqpBHILQPefdgFDGSUVOMm', 'AllFloat': 'efdgFDG', 'AllInteger': 'bBhHiIlLqQpP', 'Character': 'c', 'Complex': 'FDG', 'Datetime': 'Mm', 'Float': 'efdg', 'Integer': 'bhilqp', 'UnsignedInteger': 'BHILQP'}<br>
+<strong>unt_ind</strong> = {"''": 0, '-170': 1, '-20': 2, '-30': 3, '-led': 4, '..': 5, '...': 6, '....': 7, '.n': 8, '0-100': 9, ...}</td></tr></tbody></table>
+</p></body></html>
